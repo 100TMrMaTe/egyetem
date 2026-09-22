@@ -1,0 +1,3 @@
+﻿  elsoora.c
+C:\egyetem\felev1\programozas1\elsoorajo\elsoorajo\elsoora.c(64,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  elsoorajo.vcxproj -> C:\egyetem\felev1\programozas1\elsoorajo\x64\Debug\elsoorajo.exe

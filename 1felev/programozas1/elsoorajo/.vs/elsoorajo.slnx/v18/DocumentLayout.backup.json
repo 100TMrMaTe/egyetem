@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\egyetem\\felev1\\programozas1\\elsoorajo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46C74705-4CA0-4983-A356-A1D6B3AE03AB}|elsoorajo\\elsoorajo.vcxproj|C:\\egyetem\\felev1\\programozas1\\elsoorajo\\elsoorajo\\elsoora.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46C74705-4CA0-4983-A356-A1D6B3AE03AB}|elsoorajo\\elsoorajo.vcxproj|solutionrelative:elsoorajo\\elsoora.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "elsoora.c",
+              "DocumentMoniker": "C:\\egyetem\\felev1\\programozas1\\elsoorajo\\elsoorajo\\elsoora.c",
+              "RelativeDocumentMoniker": "elsoorajo\\elsoora.c",
+              "ToolTip": "C:\\egyetem\\felev1\\programozas1\\elsoorajo\\elsoorajo\\elsoora.c",
+              "RelativeToolTip": "elsoorajo\\elsoora.c",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-15T15:25:14.816Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

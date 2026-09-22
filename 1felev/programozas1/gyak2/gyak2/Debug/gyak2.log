@@ -1,0 +1,3 @@
+﻿  gyak2.c
+C:\xampp\htdocs\egyetem\1felev\programozas1\gyak2\gyak2\gyak2.c(86,11): warning C4002: too many arguments for function-like macro invocation 'max'
+  gyak2.vcxproj -> C:\xampp\htdocs\egyetem\1felev\programozas1\gyak2\Debug\gyak2.exe

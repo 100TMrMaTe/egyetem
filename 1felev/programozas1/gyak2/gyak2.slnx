@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="gyak2/gyak2.vcxproj" Id="401fc371-5c3b-4872-96df-20543a20d879" />
+</Solution>
