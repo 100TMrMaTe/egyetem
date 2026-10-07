@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="hazi2/hazi2.vcxproj" Id="41e3547b-e692-495a-b344-283792c85e41" />
+</Solution>

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\egyetem\\1felev\\programozas1\\het5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22DBEAF5-EA4D-47E8-B98F-9E56D3A72B04}|het5\\het5.vcxproj|C:\\xampp\\htdocs\\egyetem\\1felev\\programozas1\\het5\\het5\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22DBEAF5-EA4D-47E8-B98F-9E56D3A72B04}|het5\\het5.vcxproj|solutionrelative:het5\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\egyetem\\1felev\\programozas1\\het5\\het5\\main.c",
+              "RelativeDocumentMoniker": "het5\\main.c",
+              "ToolTip": "C:\\xampp\\htdocs\\egyetem\\1felev\\programozas1\\het5\\het5\\main.c",
+              "RelativeToolTip": "het5\\main.c",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-10-06T14:46:42.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\egyetem\\1felev\\programozas1\\hazi2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41E3547B-E692-495A-B344-283792C85E41}|hazi2\\hazi2.vcxproj|C:\\xampp\\htdocs\\egyetem\\1felev\\programozas1\\hazi2\\hazi2\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{41E3547B-E692-495A-B344-283792C85E41}|hazi2\\hazi2.vcxproj|solutionrelative:hazi2\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\egyetem\\1felev\\programozas1\\hazi2\\hazi2\\main.c",
+              "RelativeDocumentMoniker": "hazi2\\main.c",
+              "ToolTip": "C:\\xampp\\htdocs\\egyetem\\1felev\\programozas1\\hazi2\\hazi2\\main.c",
+              "RelativeToolTip": "hazi2\\main.c",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAwGsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-10-06T12:03:12.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
