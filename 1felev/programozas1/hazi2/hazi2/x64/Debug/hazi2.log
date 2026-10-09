@@ -1,2 +1,4 @@
 ﻿  main.c
+C:\xampp\htdocs\egyetem\1felev\programozas1\hazi2\hazi2\main.c(158,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\xampp\htdocs\egyetem\1felev\programozas1\hazi2\hazi2\main.c(159,30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   hazi2.vcxproj -> C:\xampp\htdocs\egyetem\1felev\programozas1\hazi2\x64\Debug\hazi2.exe

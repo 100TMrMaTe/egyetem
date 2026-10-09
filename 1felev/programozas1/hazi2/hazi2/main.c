@@ -1,35 +1,52 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
+
+/****************************************
+** File: JJ334H_2hazi.txt
+**
+** Programozo: Konyhasi Mate
+** E-mail: JJ334H@tr.pte.hu
+** Datum: 2026.10.09
+** Neptun kod: JJ334H
+**
+** Leiras: Hazi Feladat/2
+****************************************/
 
 int main()
 {
 	//1
-	printf("adjon meg egy egesz szamot: ");
+	printf("adjon meg egy valos szamot: ");
 	float beszam1;
 	scanf("%f", &beszam1);
-	printf("adjon meg egy egesz szamot: ");
+	printf("adjon meg egy valos szamot: ");
 	float beszam2;
 	scanf("%f", &beszam2);
 	float osszeg = beszam1 + beszam2;
-	int szam1lenght = sizeof(beszam1);
-	int szam2lenght = sizeof(beszam2);
-	int osszeglenght = sizeof(osszeg);
-	for (int i = 0;i < 12 - szam1lenght;i++)
+
+	char szoveg[64];
+
+	sprintf(szoveg, "%.2f", beszam1);
+	for (int i = 0; i < 12 - (int)strlen(szoveg); i++)
 	{
 		printf("-");
 	}
-	printf("%.2f + ", beszam1);
-	for (int i = 0;i < 12 - szam2lenght;i++)
+	printf("%s + ", szoveg);
+
+	sprintf(szoveg, "%.2f", beszam2);
+	for (int i = 0; i < 12 - (int)strlen(szoveg); i++)
 	{
 		printf("-");
 	}
-	printf("%.2f = ", beszam2);
-	for (int i = 0;i < 12 - osszeglenght;i++)
+	printf("%s = ", szoveg);
+
+	sprintf(szoveg, "%.2f", osszeg);
+	for (int i = 0; i < 12 - (int)strlen(szoveg); i++)
 	{
 		printf("-");
 	}
-	printf("%.2f\n", osszeg);
+	printf("%s\n", szoveg);
 
 	//2
 	printf("kerem adja meg a muvelet sorszamat: ");
@@ -44,17 +61,17 @@ int main()
 	if (muvelet == 1)
 	{
 		float osszeg = szam21 + szam22;
-		printf("A muvelet eredmenye: %f", osszeg);
+		printf("a muvelet eredmenye: %f", osszeg);
 	}
 	else if (muvelet == 2)
 	{
 		float osszeg = szam21 - szam22;
-		printf("A muvelet eredmenye: %f", osszeg);
+		printf("a muvelet eredmenye: %f", osszeg);
 	}
 	else if (muvelet == 3)
 	{
 		float osszeg = szam21 * szam22;
-		printf("A muvelet eredmenye: %f", osszeg);
+		printf("a muvelet eredmenye: %f", osszeg);
 	}
 	else if (muvelet == 4)
 	{
@@ -65,8 +82,12 @@ int main()
 		else
 		{
 			float osszeg = szam21 / szam22;
-			printf("A muvelet eredmenye: %f", osszeg);
+			printf("a muvelet eredmenye: %.2f", osszeg);
 		}
+	}
+	else
+	{
+		printf("hibas muvelet sorszam");
 	}
 
 	//3
@@ -103,8 +124,49 @@ int main()
 		float perc = ora * 60;
 		printf("Az utazashoz elore lathatoan %.2f ora, vagyis %.0f perc szukseges.", ora, perc);
 	}
-	//4
 
-	int a = scanf("kerem az a erteket%d")
+	//4
+	printf("\nKerem adja meg az a egyutthatot: ");
+	float a;
+	scanf("%f", &a);
+	printf("Kerem adja meg a b egyutthatot: ");
+	float b;
+	scanf("%f", &b);
+	printf("Kerem adja meg a c egyutthatot: ");
+	float c;
+	scanf("%f", &c);
+
+	if (a == 0)
+	{
+		printf("Az egyenlet nem masodfoku.");
+	}
+	else
+	{
+		float d = b * b - 4 * a * c;
+
+		if (d < 0)
+		{
+			printf("Az egyenletnek nincs valos gyoke.");
+		}
+		else if (d == 0)
+		{
+			float x = -b / (2 * a);
+			printf("Az egyenlet gyoke: %.2f", x);
+		}
+		else
+		{
+			float x1 = (-b - sqrt(d)) / (2 * a);
+			float x2 = (-b + sqrt(d)) / (2 * a);
+
+			if (x1 > x2)
+			{
+				float csere = x1;
+				x1 = x2;
+				x2 = csere;
+			}
+
+			printf("Az egyenlet gyokei: %.2f es %.2f", x1, x2);
+		}
+	}
 }
 
