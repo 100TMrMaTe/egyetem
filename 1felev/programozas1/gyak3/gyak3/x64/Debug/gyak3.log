@@ -1,0 +1,12 @@
+﻿  main.c
+C:\xampp\htdocs\egyetem\1felev\programozas1\gyak3\gyak3\main.c(10,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      C:\xampp\htdocs\egyetem\1felev\programozas1\gyak3\gyak3\main.c(10,9):
+      consider using '%zu' in the format string
+  
+C:\xampp\htdocs\egyetem\1felev\programozas1\gyak3\gyak3\main.c(51,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      C:\xampp\htdocs\egyetem\1felev\programozas1\gyak3\gyak3\main.c(51,9):
+      consider using '%zu' in the format string
+  
+C:\xampp\htdocs\egyetem\1felev\programozas1\gyak3\gyak3\main.c(53,9): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\xampp\htdocs\egyetem\1felev\programozas1\gyak3\gyak3\main.c(82,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  gyak3.vcxproj -> C:\xampp\htdocs\egyetem\1felev\programozas1\gyak3\x64\Debug\gyak3.exe
