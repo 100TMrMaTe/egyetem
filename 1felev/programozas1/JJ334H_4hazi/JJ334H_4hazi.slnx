@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="JJ334H_4hazi/JJ334H_4hazi.vcxproj" />
+</Solution>
