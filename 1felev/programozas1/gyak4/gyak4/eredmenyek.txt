@@ -1,0 +1,7 @@
+Kavocs Gabor	2	1
+Kiss Patrik	2	2
+Konyhasi Mate	5	3
+Jankovics Peter	3	4
+Keszericze Akos	1	5
+Fa Anna	2	7
+Buldog Ferenc	3	8
